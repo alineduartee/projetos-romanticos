@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0e1ff, #c4c3ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .container {
+    position: absolute;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #5f4dff;
+    font-size: 2.5em;
+  }
+  
+  .intro {
+    margin: 20px 0;
+    font-size: 1.2em;
+  }
+  
+  button {
+    background-color: #6e4dff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #7e79ff;
+  }
+  
+  .hidden {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #letter h2 {
+    color: #654dff;
+  }
+  
+  #letter p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  #hearts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
